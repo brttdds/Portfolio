@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Resume - Brett Dudley</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header>
+<h1>Brett Dudley</h1>
+<p>bdud03@gmail.com<br>(916) 862-2667<br>San Francisco Bay Area</p>
+<nav>
+<ul>
+<li><a href="cover-letter.html">Cover Letter</a></li>
+<li><a href="career-goals.html">Career Goals</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section>
+<article>
+<h2>Summary</h2>
+<p>I’m learning to build data systems. I’ve worked with SQL, C++, and maps. I study, code, and solve problems.</p>
+
+<h2>Education</h2>
+<ul>
+<li><strong>WGU</strong> - B.S. Computer Science <span class="highlight">(Expected May 2026)</span></li>
+<li><strong>CSU Sacramento</strong> - B.A. History, <em>summa cum laude</em></li>
+</ul>
+
+<h2>Experience</h2>
+<ul>
+<li><strong>Investigator</strong>, Vcheck Global<br>
+Researched public records. Cleaned data. Found risks.
+</li>
+<li><strong>GIS Tech</strong>, NCIC<br>
+Managed a 10K+ record database. Built maps.
+</li>
+</ul>
+
+<h2>Skills</h2>
+<ul>
+<li>SQL, PostgreSQL</li>
+<li>C++, HTML, Git</li>
+<li>Excel, ArcGIS, Jira</li>
+</ul>
+
+<h2>Projects</h2>
+<ol>
+<li>Roster Manager (C++) – Functions + arrays</li>
+<li>Diagnosis Analysis (SQL) – 350K rows, model tuning</li>
+</ol>
+
+<table border="1">
+<caption>Tech Proficiency</caption>
+<tr>
+<th>Skill</th>
+<th>Level</th>
+<th>Tool</th>
+<th>Used In</th>
+</tr>
+<tr>
+<td>SQL</td>
+<td>Advanced</td>
+<td>PostgreSQL</td>
+<td>Analytics Project</td>
+</tr>
+<tr>
+<td>C++</td>
+<td>Intermediate</td>
+<td>g++</td>
+<td>Roster Program</td>
+</tr>
+<tr>
+<td>GIS</td>
+<td>Intermediate</td>
+<td>ArcGIS</td>
+<td>NCIC Internship</td>
+</tr>
+</table>
+
+<hr>
+<div id="currentDate">Current Date: Not Set</div>
+
+</article>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 Brett Dudley. All rights reserved.</p>
+</footer>
+
+<script>
+      function populateDate() {
+      const dateDiv = document.getElementById('currentDate');
+      const currentDate = new Date();
+      dateDiv.textContent = "Current Date: " + currentDate.toDateString();
+    }
+    populateDate();
+    console.log("Resume loaded.");
+ </script>
+
+</body>
+
+</html>
+
