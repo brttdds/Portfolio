@@ -9,9 +9,6 @@ Interactive Elements: Basic JavaScript for dynamic interactions.
 
 **Technologies Used:**
 
-HTML
-
-CSS
-
-JavaScript
-
+- HTML
+- CSS
+- JavaScript
